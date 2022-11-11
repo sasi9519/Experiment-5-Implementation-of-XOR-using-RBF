@@ -35,9 +35,9 @@ The RBF of hidden neuron as gaussian function
 
 2.In the end_to_end function, first calculate the similarity between the inputs and the peaks.
  
-  Then, to find w used the equation Aw= Y in matrix form.
+  * Then, to find w used the equation Aw= Y in matrix form.
   
-   Each row of A (shape: (4, 2)) consists of
+   * Each row of A (shape: (4, 2)) consists of
 
 3. index[0]: similarity of point with peak1
  
@@ -59,11 +59,11 @@ The RBF of hidden neuron as gaussian function
     
 5. To find the weights for the edges to the 1-output unit. Weights associated would be:
 
-    edge joining 1st node (peak1 output) to the output node
+    * edge joining 1st node (peak1 output) to the output node
     
-    edge joining 2nd node (peak2 output) to the output node
+    * edge joining 2nd node (peak2 output) to the output node
     
-    bias edge
+    * bias edge
     
 
 ### Developed by:D.Amarnath Reddy
