@@ -43,16 +43,16 @@ Each row of A (shape: (4, 2)) consists of
    Y: Output associated with the input (shape: (4, ))
    W is calculated using the same equation we use to solve linear regression using a closed solution (normal equation).
 
-4.This part is the same as using a neural network architecture of 2-2-1,
-   *2 node input (x1, x2) (input layer)
-    *2 node (each for one peak) (hidden layer)
-    *1 node output (output layer)
+4. This part is the same as using a neural network architecture of 2-2-1,
+    2 node input (x1, x2) (input layer)
+    2 node (each for one peak) (hidden layer)
+    1 node output (output layer)
     
-5.To find the weights for the edges to the 1-output unit. Weights associated would be:
+5. To find the weights for the edges to the 1-output unit. Weights associated would be:
 
-   *edge joining 1st node (peak1 output) to the output node
-   *edge joining 2nd node (peak2 output) to the output node
-    *bias edge
+    edge joining 1st node (peak1 output) to the output node
+    edge joining 2nd node (peak2 output) to the output node
+    bias edge
     
 
 ### Developed by:D.Amarnath Reddy
