@@ -66,8 +66,7 @@ The RBF of hidden neuron as gaussian function
     * bias edge
     
 
-### Developed by:D.Amarnath Reddy
-### Registration no:212221240012
+
 ## PROGRAM:
 ```
 import numpy as np
