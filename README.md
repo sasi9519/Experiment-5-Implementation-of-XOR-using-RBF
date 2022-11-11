@@ -39,11 +39,11 @@ The RBF of hidden neuron as gaussian function
   
    * Each row of A (shape: (4, 2)) consists of
 
-3. index[0]: similarity of point with peak1
+3. * index[0]: similarity of point with peak1
  
-   index[1]: similarity of point with peak2
+   * index[1]: similarity of point with peak2
    
-   index[2]: Bias input (1)
+   * index[2]: Bias input (1)
    
    Y: Output associated with the input (shape: (4, ))
    
