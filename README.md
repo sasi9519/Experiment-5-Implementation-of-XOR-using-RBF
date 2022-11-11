@@ -51,11 +51,11 @@ The RBF of hidden neuron as gaussian function
 
 4. This part is the same as using a neural network architecture of 2-2-1,
  
-    2 node input (x1, x2) (input layer)
+    * 2 node input (x1, x2) (input layer)
     
-    2 node (each for one peak) (hidden layer)
+    * 2 node (each for one peak) (hidden layer)
     
-    1 node output (output layer)
+    * 1 node output (output layer)
     
 5. To find the weights for the edges to the 1-output unit. Weights associated would be:
 
